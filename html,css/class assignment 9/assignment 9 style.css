@@ -1,0 +1,64 @@
+header{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header img{
+border-radius: 50px;
+}
+h2{
+    color: red;
+    filter: drop-shadow(10px 10px 20px blu);
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 0px 0px 50px;
+    justify-content: right; 
+    font-size: 30px;           
+    
+}
+nav ul{
+    display: flex;
+
+}
+ ul li:hover{
+    border: 2px solid red ;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px red;
+}
+form input{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+form input:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    color: white;
+
+}
+form button{
+    height: 30px;
+    border-radius: 20px;
+    width: 100px;
+}
+form button:hover{
+    background-color: orangered;
+    color: white;
+}
+          
+    
+img{
+    width: 100px;
+}
+
+body{
+    background-image: url(vppp.gif);
+}
+

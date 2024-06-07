@@ -1,0 +1,193 @@
+/* header */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(107, 3, 3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img{
+    width: 120px;
+    margin-left: 10px;
+}
+
+ 
+nav ul li{
+    list-style: none;
+    display: inline;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 0px 0px 50px;
+    color: white;
+}
+ 
+.fa-house{
+    color: black;
+}
+
+.fa-cart-shopping{
+    color: black;
+}
+
+.fa-heart{
+    color: black;
+}
+
+.fa-question{
+    color: black;
+}
+
+ul li{
+    display: flex;
+}
+
+form input{
+    border-radius: 15px;
+    background-color:white;
+    width: 250px;
+    height: 30px;
+    border: 3px solid yellow;
+}
+
+form button{
+    border-radius: 15px;
+    height: 30px;
+    background-color: yellow;
+    
+}
+
+header h2{
+    color:black;
+    font-size: 50px;
+    font-family: brush script mt ;
+    filter: drop-shadow(3px 3px  yellow);
+}
+
+nav ul li:hover{
+    box-shadow: 0px 10px 10px 0px white;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+form input:hover{
+    background-color: lightgray;
+}
+
+form button:hover{
+    background-color: white;
+}
+
+/* main */
+
+main{
+    background-color: black;
+    color: yellow;
+    float: left;
+}
+
+.img1{
+    width: 800px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 10px;
+    border: 5px solid rgb(107, 3, 3) ;
+}
+
+.p1{
+    text-align: left;
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+.a{
+    color:rgb(107, 3, 3) ;
+    font-family:brush script mt ;
+    font-size: 50px;
+}
+
+.b{
+    color:rgb(107, 3, 3) ;
+    font-size: 30px;
+}
+
+.c{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d{
+    font-size: 50px;
+}
+
+.e{
+    color: brown;
+    font-size: 30px;
+}
+
+.h1{
+    padding-top: 260px;
+    padding-bottom: 50px;
+    font-family: brush script mt;
+    color: yellow;
+    font-size: 50px;
+}
+
+.mp1{
+    width: 630px;
+    filter: drop-shadow(10px 10px 20px white);
+}
+
+.mp2{
+    width: 700px;
+    filter: drop-shadow(10px 10px 20px white);
+}
+
+.mp3{
+    width: 600px;
+    height: 500px;
+    filter: drop-shadow(10px 10px 20px white);
+}
+
+.div2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* footer */
+
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(107, 3, 3);
+}
+
+footer div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 230px;
+    padding-right: 240px;
+}
+
+footer div h2{
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+footer div p{
+    color: white;
+}
+
+footer div li{
+    color: white;
+}

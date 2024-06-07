@@ -1,0 +1,160 @@
+/* header */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:  rgb(107, 3, 3);
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+}
+
+ul li{
+    display: flex;
+}
+
+form input{
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    height: 30px;
+}
+
+form button{
+    width: 50px;
+    border-radius: 15px;
+    height: 30px;
+
+    
+}
+
+
+
+
+nav ul li:hover{
+
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    background-color: #034d13;
+    color: white;
+
+}
+
+form input:hover{
+    background-color: lightgray;
+    color: black;
+    border: 3px solid black;
+}
+
+form button:hover{
+    background-color: #034d13;
+    color: black;
+}
+
+/* main */
+
+main{
+
+    background-color:#022b0b; 
+
+}
+ 
+main img{
+    width: 100%;
+    margin-top: 10px;
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 90px;
+    color: yellow;
+    font-family: brush script mt;
+}
+
+main div h6{
+    color: yellow;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+main div p{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+main div button{
+    border-radius: 15px;
+    height: 30px;
+
+}
+
+main div button:hover{
+    background-color: black;
+    color:yellow ;
+}
+
+/* footer */
+
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(107, 3, 3);
+}
+
+footer div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 230px;
+    padding-right: 240px;
+}
+
+footer div h2{
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+footer div p{
+    color: white;
+}
+
+footer div li{
+    color: white;
+}
+
+
+/* best selling produce */
+
+.a{
+    font-family: brush script mt;
+    
+}
+
+.page2{
+    padding-bottom: 50px;
+}
